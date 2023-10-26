@@ -1,11 +1,15 @@
 package bookingsystem;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Hairdresser {
 
     private String username;
     private String password;
 
-    Hairdresser(String username, String password){
+
+    Hairdresser(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -26,14 +30,23 @@ public class Hairdresser {
         this.username = username;
     }
 
-    public boolean Validate(Hairdresser hairdresser){
-        if(this.password.equals(hairdresser.getPassword()) && this.username.equals(hairdresser.getUsername())){
-            return true;
+
+    public boolean Validate(Hairdresser hairdresser) {
+        if (this.password.equals(hairdresser.getPassword()) && this.username.equals(hairdresser.getUsername())) {
+            System.out.println("Login successful.");
         } else {
-            return false;
+            System.out.println("Login failed.");
+
         }
+       return false;
     }
-
-
-
 }
+
+
+
+
+
+
+
+
+
