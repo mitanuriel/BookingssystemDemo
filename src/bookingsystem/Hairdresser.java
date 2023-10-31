@@ -8,6 +8,8 @@ public class Hairdresser {
     private String username;
     private String password;
 
+    Scanner scanner = new Scanner(System.in);
+
 
     Hairdresser(String username, String password) {
         this.username = username;
@@ -30,9 +32,21 @@ public class Hairdresser {
         this.username = username;
     }
 
+    void LogIn(){
+        boolean loggedIn = false;
 
-    public boolean Validate(Hairdresser hairdresser) {
-        if (this.password.equals(hairdresser.getPassword()) && this.username.equals(hairdresser.getUsername())) {
+        if (loggedIn){
+            System.out.println("Enter username: ");
+            String getPassword = scanner.next();
+
+            System.out.println("Enter password: ");
+            String getUsername = scanner.next();
+        }
+
+    }
+
+    public boolean Validate(Hairdresser Harry) {
+        if (this.password.equals(Harry.getPassword()) && this.username.equals(Harry.getUsername())) {
             System.out.println("Login successful.");
         } else {
             System.out.println("Login failed.");
