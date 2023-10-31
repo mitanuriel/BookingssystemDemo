@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2de6cf9-b8b4-4e89-b848-f9ddfbedcd9f" name="Changes" comment="">
+<<<<<<<<< Temporary merge branch 1
+    <list default="true" id="e2de6cf9-b8b4-4e89-b848-f9ddfbedcd9f" name="Changes" comment=".)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=========
+    <list default="true" id="e2de6cf9-b8b4-4e89-b848-f9ddfbedcd9f" name="Changes" comment="buttons">
+      <change afterPath="$PROJECT_DIR$/src/bookingsystem/Revisor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bookingsystem/Hairdresser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/Hairdresser.java" afterDir="false" />
+>>>>>>>>> Temporary merge branch 2
       <change beforePath="$PROJECT_DIR$/src/bookingsystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookingsystem/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
